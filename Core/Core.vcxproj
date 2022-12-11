@@ -690,6 +690,7 @@
     <ClCompile Include="Source\Engine.cpp" />
     <ClCompile Include="Source\Graphics\Renderer.cpp" />
     <ClCompile Include="Source\Graphics\Shaders.cpp" />
+    <ClCompile Include="Source\UI\Stats.cpp" />
     <ClCompile Include="Source\UI\UI_Widget.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -698,6 +699,9 @@
     <ClInclude Include="Source\Engine.h" />
     <ClInclude Include="Source\Graphics\Renderer.h" />
     <ClInclude Include="Source\Graphics\Shaders.h" />
+    <ClInclude Include="Source\Objects\Object.h" />
+    <ClInclude Include="Source\Objects\Primitives\Cube.h" />
+    <ClInclude Include="Source\UI\Stats.h" />
     <ClInclude Include="Source\UI\UI_Widget.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
