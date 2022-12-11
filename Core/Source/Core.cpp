@@ -51,9 +51,11 @@ static const uint16_t cubeTriList[] =
 Camera m_Camera;
 Cube* m_Cube;
 
+// Because I removed my cube it doesn't clear the color buffer.
+
 int main(int argc, char* argv[]) {
-    Engine::Start();
     Renderer::InitializeRenderer(1280, 720, "Game Engine");
+    Engine::Start();
 
     UI_Widget* stats = new Stats();
     Engine::AddUIWidget(stats);
